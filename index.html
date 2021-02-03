@@ -35,15 +35,17 @@
             margin-right: 5px;
         }
 
-        .footer {
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
+        #footer {   
+            width:100%;
             background-color: #f8f0ee;
             color: #a59e9c;
-            text-align: left;
-}
+        }
+
+        #bottom-footer {
+            height:40px;
+            background-color: #f8f0ee;
+            color: #a59e9c;
+        }
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -64,11 +66,16 @@
         <button type="button">I'm Feeling Lucky!</button> 
     </div>
     <p class="center-div">Google offered in: <a href="">magyar</a> <a href="">slovenčina</a> </p>
-    <div class="footer">
-        <p>Slovakia</p>
-    </div>
-    <div class="footer">
-        <p>Footer</p>
-    </div>
+    <footer>
+        <div id="footer">
+      <p>Slovakia</p>
+        </div>
+
+        <div id="bottom-footer">
+           <p>Advertising</p>
+           <p>blablalba</p>
+        </div>
+    </footer>
+    
 </body>
 </html>
